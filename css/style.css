@@ -81,6 +81,7 @@ textarea {
 
 #banner-info img {
     height: 300px;
+    width: 300px;
     border-radius: 50%;
     background-color: rosybrown;
     margin-top: 30px;
@@ -309,4 +310,159 @@ footer textarea {
 
 footer .detail {
     font-weight: bold;
+}
+
+
+
+@media (min-width: 375px) and (max-width: 768px) {
+    #banner-info {
+        width: 100%;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main-banner {
+        height: auto;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        height: 40vh;
+    }
+
+    #banner-info {
+        width: 60%;
+    }
+
+    #banner-info p {
+        margin: 0;
+        width: auto;
+    }
+
+    #banner-info img {
+        height: 150px;
+        width: 150px;
+        margin: 0;
+    }
+
+    #navbar h2 {
+        display: none;
+    }
+
+    #navbar img {
+        top: 9px;
+        width: 48px;
+    }
+
+    body,
+    p,
+    h1,
+    h2,
+    input,
+    textarea {
+        font-size: 1.2rem;
+    }
+
+    #navbar ul {
+        margin-top: 1.1rem;
+        display: flex;
+    }
+
+    #navbar-list li a {
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #about-sections {
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    #skills-section {
+        margin-top: -35px;
+        width: 90%;
+    }
+
+    #skills-section .container {
+        flex-direction: column;
+    }
+
+    .skills-container {
+        padding: 25px;
+    }
+
+    .skills-container.central {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .job-container1 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .job-container2 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .job-box-proj1 {
+        margin-bottom: 2rem;
+        flex: 1 1 300px;
+    }
+
+    .job-box-proj2 {
+        margin-bottom: 2rem;
+        flex: 1 1 300px;
+    }
+
+    .job-box-proj3 {
+        margin-bottom: 2rem;
+        flex: 1 1 300px;
+    }
+
+    .job-box-proj4 {
+        margin-bottom: 2rem;
+        flex: 1 1 300px;
+    }
+
+    .job-box-proj5 {
+        margin-bottom: 2rem;
+        flex: 1 1 300px;
+    }
+
+    .job-box-proj6 {
+        margin-bottom: 2rem;
+        flex: 1 1 300px;
+    }
+
+    #jobs-sections h2 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #jobs-section p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer {
+        padding: 50px 15px;
+    }
+
+    footer form {
+        width: 100%;
+    }
+
+    .detail {
+        margin-top: 10px;
+        display: block;
+    }
+
+
 }
